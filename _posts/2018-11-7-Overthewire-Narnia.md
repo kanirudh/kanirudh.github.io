@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OverTheWire: Narnia
+title: OverTheWire Narnia
 ---
 
 I realised while solving the challenges is that sometimes you just want a little bit hint and not a complete walkthrough. So I am listing hints for narnia challenges
