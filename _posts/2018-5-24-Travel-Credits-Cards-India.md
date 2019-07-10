@@ -12,7 +12,7 @@ Citibank Credit Cards
 
 Rewards Points
 1. 4 points for every Rs. 100
-2. 10 points for every Rs. 100 spent on airline booking or on the website
+2. 10 points for every Rs. 100 spent on airline booking or on the website, make a note this is valid on agent website like MMT, Yatra and so on
 3. 1 point = 0.45 point on the www.premiermiles.co.in
 
 
