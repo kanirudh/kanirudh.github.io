@@ -15,21 +15,21 @@ This can be used to find number of set bits. Also if a number is power of 2, as 
 `x & ~(x-1)`
 
 For signed numbers you can use the following method also
-`x & -x` 
+`x & -x`
 
 Pretty patterns when applied to a linear sequence.
 
 #### Clearing run of set bits starting n
 
-`x & (x + (1 << n))` 
+`x & (x + (1 << n))`
 
 #### Run of set bits starting n
 `x & ~(x + (1 << n))`
 
 #### Setting the lowest cleared bit
-`x | (x + 1)` 
+`x | (x + 1)`
 
-#### Run of cleared bit starting at bit 'n' 
+#### Run of cleared bit starting at bit 'n'
 `x | (x - (1 << n))`
 
 #### Count the trailing number of zeros
@@ -46,4 +46,14 @@ if (x & 0x33333333) c -= 2;
 if (x & 0x55555555) c -= 1;
 ```
 
-### References
+#### Calculate the parity of a word
+```python
+def parity(x):
+    x ^= x >> 32;
+    x ^= x >> 16;
+    x ^= x >> 8;
+    x ^= x >> 4;
+    x ^= x >> 2;
+    x ^= x >> 1;
+    return x & 0x1;
+```
